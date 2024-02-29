@@ -5,14 +5,14 @@ Simple forward proxy.
 ## Install
 
 ```
-$ docker pull u1aryz/forward-proxy:latest
+ docker pull u1aryz/forward-proxy:latest
 ```
 
 ## Quickstart
 
 - Simple
 ```
-$ docker run -d --name goproxy --restart=always -p 64444:8080 u1aryz/forward-proxy
+ docker run -d --name goproxy --restart=always -p 64444:8080 u1aryz/forward-proxy
 ```
 
 - If use basic auth
